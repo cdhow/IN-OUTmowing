@@ -23,7 +23,7 @@
     <header>
         <div class="logo hide-on-med-and-up"><img id="logo-mobile" src="resources/in&outm.png" alt=""></div>
         <div class="logo hide-on-small-only"><img id="logo-desktop" src="resources/in&out.png" alt=""></div>
-        <div id="call"><b>Contact <span class="green-text text-lighten-1">Us</span></b><br>0498631360</div>
+        <a href="tel:+61413933711"><div id="call"><b>Contact <span class="green-text text-lighten-1">Us</span></b><br>0413 933 711</div></a>
     </header>
 
     <!--Showcase-->
@@ -83,7 +83,7 @@
                     <h5>Garden Waste Removal</h5>
                     <p>If messy leaves and other garden waste are cluttering your garden ADD MORE. </p>
                 </div>
-                <div class="col s12 m6 offset-m3">
+                <div class="col s12 m6 l6 offset-l3">
                     <img src="service-icons/grass.svg" alt="">
                     <h5>Whipper Snipping</h5>
                     <p>Whipper Snipping comes with our Lawn mowing service. When whipper snipping, we ensure a focused
@@ -141,7 +141,7 @@
             <h2 class="amber-text">Contact Us</h2>
             <div class="row">
                 <div class="col s12 m6">
-                    <a href="#">
+                    <a href="tel:+61413933711">
                         <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="feather feather-phone">
@@ -150,11 +150,11 @@
                             </path>
                         </svg>
                         <h4>Call Us Now</h4>
-                        <h6>0498098234</h6>
+                        <h5>0413 933 711</h5>
                     </a>
                 </div>
                 <div class="col s12 m6">
-                    <a href="#">
+                    <a href="mailto:fez@in-and-out.com?subject=IN&OUT">
                         <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="feather feather-mail">
@@ -163,7 +163,7 @@
                             <polyline points="22,6 12,13 2,6"></polyline>
                         </svg>
                         <h4>Email Now For a Free Quote</h4>
-                        <h6>fez@in-and-out.com</h6>
+                        <h5>fez@in-and-out.com</h5>
                     </a>
                 </div>
             </div>
@@ -178,6 +178,13 @@
                 href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
                 3.0 BY</a></div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems, options);
+        });
+    </script>
 
 </body>
 
